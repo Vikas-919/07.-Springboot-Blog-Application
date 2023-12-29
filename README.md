@@ -26,6 +26,7 @@ This Spring Boot Blog Application serves as the backend for a simple blogging pl
 
 **6. Springdoc OpenAPI Swagger**: Integrates Springdoc OpenAPI Swagger for API documentation. Access the Swagger UI at `http://localhost:8080/swagger-ui.html` and the OpenAPI JSON at `http://localhost:8080/v3/api-docs`
 
+
 ![00](https://github.com/Vikas-919/07.-Springboot-Blog-Application/assets/142529224/fd37ad7c-b3b5-45df-8c45-e99eff0bda37)
 
 
