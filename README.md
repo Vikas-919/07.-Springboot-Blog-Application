@@ -1,8 +1,11 @@
-**Spring Boot Blog Application - Backend
-Overview**
+**Spring Boot Blog Application - Backend**
+
+**Overview**
+
 This Spring Boot Blog Application serves as the backend for a simple blogging platform. The project is structured using a 3-layer architecture, including Controller, Service, and Repository layers. Various features such as validation, security (JWT for authorization and authentication), global exception handling, versioning through URI path, and the use of DTOs (Data Transfer Objects) have been implemented.
 
 **Project Structure**
+
 **1. Controller Layer:** Handles incoming HTTP requests and delegates processing to the Service layer. Includes endpoints for managing resources like Post, Comment, Category, User, and Role.
 
 **2. Service Layer:** Implements business logic and interacts with the Repository layer. Manages the flow of data between the Controller and Repository layers.
@@ -10,6 +13,7 @@ This Spring Boot Blog Application serves as the backend for a simple blogging pl
 **3. Repository Layer:** Manages data storage and retrieval. Implements interactions with the database.
 
 **Features**
+
 **1. Validation:** Input data is validated to ensure data integrity and consistency.
 
 **2. Security (JWT):** Implements JSON Web Token (JWT) for secure authentication and authorization.
@@ -26,6 +30,7 @@ This Spring Boot Blog Application serves as the backend for a simple blogging pl
 
 
 **Entity Relationships**
+
 **1. User and Role:** Utilizes Many-to-Many mapping to establish relationships between users and roles.
 
 **2. Category and Post:** Employs One-to-Many mapping to link categories and posts.
@@ -33,11 +38,17 @@ This Spring Boot Blog Application serves as the backend for a simple blogging pl
 **3. Post and Comment:** Implements One-to-Many mapping for the relationship between posts and comments.
 
 **Endpoints**
-**POST** /api/v1/posts: Create a new post.
-**GET** /api/v1/posts: Retrieve all posts.
-**GET** /api/v1/posts/{postId}: Retrieve a specific post.
-**PUT** /api/v1/posts/{postId}: Update a post.
-**DELETE** /api/v1/posts/{postId}: Delete a post.
+
+**POST:** /api/v1/posts: Create a new post.
+
+**GET:** /api/v1/posts: Retrieve all posts.
+
+**GET:** /api/v1/posts/{postId}: Retrieve a specific post.
+
+**PUT:** /api/v1/posts/{postId}: Update a post.
+
+**DELETE:** /api/v1/posts/{postId}: Delete a post.
+
 ... similar endpoints for other resources ...
 
 ![01](https://github.com/Vikas-919/07.-Springboot-Blog-Application/assets/142529224/b9db5f1e-2590-4dc6-9642-8472211d8aa3)
@@ -48,7 +59,8 @@ This Spring Boot Blog Application serves as the backend for a simple blogging pl
 
 
 **Dependencies**
-**1. spring-boot-starter-web
+
+1. spring-boot-starter-web
 2. spring-boot-starter-data-jpa
 3. spring-boot-devtools
 4. mysql-connector-j
