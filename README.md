@@ -76,7 +76,7 @@ This Spring Boot Blog Application serves as the backend for a simple blogging pl
 9. jjwt-impl, jjwt-api, jjwt-jackson
 10. springdoc-openapi-starter-webmvc-ui
 11. spring-boot-starter-test
-**
+
 
 **Contributing**
 
