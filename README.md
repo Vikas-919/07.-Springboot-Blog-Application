@@ -1,10 +1,10 @@
 # Spring Boot Blog Application - Backend
 
-**Overview**
+**Overview:**
 
 This Spring Boot Blog Application serves as the backend for a simple blogging platform. The project is structured using a 3-layer architecture, including Controller, Service, and Repository layers. Various features such as validation, security (JWT for authorization and authentication), global exception handling, versioning through URI path, and the use of DTOs (Data Transfer Objects) have been implemented.
 
-**Project Structure**
+**Project Structure:**
 
 **1. Controller Layer:** Handles incoming HTTP requests and delegates processing to the Service layer. Includes endpoints for managing resources like Post, Comment, Category, User, and Role.
 
@@ -12,7 +12,7 @@ This Spring Boot Blog Application serves as the backend for a simple blogging pl
 
 **3. Repository Layer:** Manages data storage and retrieval. Implements interactions with the database.
 
-**Features**
+**Features:**
 
 **1. Validation:** Input data is validated to ensure data integrity and consistency.
 
@@ -30,7 +30,7 @@ This Spring Boot Blog Application serves as the backend for a simple blogging pl
 ![00](https://github.com/Vikas-919/07.-Springboot-Blog-Application/assets/142529224/fd37ad7c-b3b5-45df-8c45-e99eff0bda37)
 
 
-**Entity Relationships**
+**Entity Relationships:**
 
 **1. User and Role:** Utilizes Many-to-Many mapping to establish relationships between users and roles.
 
@@ -38,7 +38,7 @@ This Spring Boot Blog Application serves as the backend for a simple blogging pl
 
 **3. Post and Comment:** Implements One-to-Many mapping for the relationship between posts and comments.
 
-**Endpoints**
+**Endpoints:**
 
 **POST:** /api/v1/posts: Create a new post.
 
@@ -63,7 +63,7 @@ This Spring Boot Blog Application serves as the backend for a simple blogging pl
 ![05](https://github.com/Vikas-919/07.-Springboot-Blog-Application/assets/142529224/888da8b6-c1d9-425c-b6b5-355a06712e6e)
 
 
-**Dependencies**
+**Dependencies:**
 
 1. spring-boot-starter-web
 2. spring-boot-starter-data-jpa
@@ -78,6 +78,6 @@ This Spring Boot Blog Application serves as the backend for a simple blogging pl
 11. spring-boot-starter-test
 
 
-**Contributing**
+**Contributing:**
 
 We welcome contributions through the submission of issues or pull requests. Your feedback and contributions are immensely valuable!
