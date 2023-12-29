@@ -25,6 +25,7 @@ This Spring Boot Blog Application serves as the backend for a simple blogging pl
 **5. Data Transfer Objects (DTOs):** Uses DTOs to transfer data between layers, enhancing flexibility and reducing coupling.
 
 **6. Springdoc OpenAPI Swagger**: Integrates Springdoc OpenAPI Swagger for API documentation. Access the Swagger UI at `http://localhost:8080/swagger-ui.html` and the OpenAPI JSON at `http://localhost:8080/v3/api-docs`
+
 **7. AOP Logging Aspect**: Implements AOP logging with `@Before` and `@AfterReturning` advice to log method calls, arguments, and returned data.
 
 
