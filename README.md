@@ -52,9 +52,13 @@ This Spring Boot Blog Application serves as the backend for a simple blogging pl
 ... similar endpoints for other resources ...
 
 ![01](https://github.com/Vikas-919/07.-Springboot-Blog-Application/assets/142529224/b9db5f1e-2590-4dc6-9642-8472211d8aa3)
+
 ![02](https://github.com/Vikas-919/07.-Springboot-Blog-Application/assets/142529224/e9986883-49f4-464e-9574-84e575b1cf27)
+
 ![03](https://github.com/Vikas-919/07.-Springboot-Blog-Application/assets/142529224/ce221b56-e318-43d1-99aa-ee6049831d92)
+
 ![04](https://github.com/Vikas-919/07.-Springboot-Blog-Application/assets/142529224/42517309-76c9-4c4c-9495-720ea2b1858f)
+
 ![05](https://github.com/Vikas-919/07.-Springboot-Blog-Application/assets/142529224/888da8b6-c1d9-425c-b6b5-355a06712e6e)
 
 
@@ -74,4 +78,5 @@ This Spring Boot Blog Application serves as the backend for a simple blogging pl
 **
 
 **Contributing**
+
 We welcome contributions through the submission of issues or pull requests. Your feedback and contributions are immensely valuable!
