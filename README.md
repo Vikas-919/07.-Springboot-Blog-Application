@@ -1,4 +1,4 @@
-**Spring Boot Blog Application - Backend**
+# Spring Boot Blog Application - Backend
 
 **Overview**
 
